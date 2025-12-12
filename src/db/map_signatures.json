@@ -1,0 +1,10 @@
+{
+  "description": "Pattern hints for map identification",
+  "signatures": {
+    "rail": {"min_peak": 180, "std_min": 20},
+    "turbo": {"smoothness_max": 15},
+    "injection": {"mean_max": 80, "std_min": 8},
+    "torque": {"cols_min": 32, "std_min": 10},
+    "limiter": {"cols_max": 8}
+  }
+}
