@@ -1,0 +1,15 @@
+{
+  "description": "Driver schema for ECU layout signature database",
+  "fields": {
+    "vendor": "ECU vendor name",
+    "model": "ECU model identifier",
+    "firmware_id": "optional firmware id",
+    "map_regions": [
+      {
+        "type": "rail | turbo | injection | torque | limiter | eeprom",
+        "offset": "hex or decimal offset",
+        "length": "bytes"
+      }
+    ]
+  }
+}
