@@ -1,0 +1,7 @@
+{
+  "bosch": ["BOSCH", "EDC15", "EDC16", "EDC17"],
+  "siemens": ["SIEMENS", "SID", "SIMOS", "ME7", "ME9"],
+  "marelli": ["MARELLI", "IAW", "MED", "MAGNETI"],
+  "denso": ["DENSO", "ECU"],
+  "delphi": ["DELPHI", "DELCO"]
+}
